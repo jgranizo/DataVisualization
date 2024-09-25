@@ -1,0 +1,116 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+   
+}
+
+/* Flexbox for Name and Contact Info */
+.name-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+/* Name and Title Styling */
+.name h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.name h2 {
+    margin: 0;
+    font-size: 1.2rem;
+   color: #232323;
+}
+
+/* Right Info Section */
+.info {
+    text-align: left;
+
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.info a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+/* Layout for section headings and content on the right */
+.section {
+    display: flex;
+    justify-content: center;  /* Keep content left-aligned */
+    align-items: flex-start;
+    margin-top: 20px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    width: 90%;  
+}
+
+/* Flex Layout for Title and Content */
+.section-title {
+    flex: 1;  /* Title takes up the first column */
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.section-content {
+    flex: 3;  /* Content takes up the remaining space */
+    padding-left: 20px; /* Add some spacing between title and content */
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts space between the skill lists */
+    flex-wrap: wrap; /* Allows wrapping if there isn't enough space */
+}
+
+.skills-container ul {
+    flex: 1; /* Each ul takes equal width */
+    margin: 0 10px; 
+}
+.section-last{
+    border-bottom:none;
+    display: flex;
+    justify-content: center;  /* Keep content left-aligned */
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 90%;   
+
+}
+/* General Heading and Text */
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+    /*Hide bullet points*/
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Job Entry Layout */
+.job-entry {
+    margin-bottom: 15px;
+}
+
